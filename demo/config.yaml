@@ -2,7 +2,7 @@ iam_role: frostbite-falls_bullwinkle
 imds_v1_allowed: false
 gcp_vault_mount_path: cloud-iam/gcp/datadog-sandbox
 gcp_project_ids:
-    datadog-sandbox: "958371799887"
+    cloud-iam/gcp/datadog-sandbox: "958371799887"
 aws_vault_mount_path: cloud-iam/aws/601427279990
 azure_vault_mount_path: ""
 server:
