@@ -21,4 +21,6 @@
 go.work
 go.work.sum
 
-attache
+/attache
+/demo-runner
+bin/

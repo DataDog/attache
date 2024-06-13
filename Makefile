@@ -1,7 +1,10 @@
 GOFILES:=$(shell find . -type f -iname '*.go')
 
 attache: $(GOFILES)
-	go build -o attache ./cmd/main.go
+	go build -o attache ./cmd/attache/main.go
+
+demo-runner: $(GOFILES)
+	go build -o demo-runner ./cmd/demo-runner/main.go
 
 thirdparty-licenses:
 	@echo "Retrieving third-party licenses..."
