@@ -8,14 +8,14 @@ import (
 	"syscall"
 
 	"github.com/DataDog/attache/internal/imds"
-	"github.com/DataDog/attache/internal/server"
 	"github.com/DataDog/attache/internal/vault"
 	"github.com/hashicorp/go-metrics"
 	"go.uber.org/zap"
+	"gopkg.in/yaml.v3"
 )
 
 func main() {
-	fmt.Println("attaché")
+	fmt.Println("starting attaché")
 
 	osSignals := make(chan os.Signal, 1)
 	signal.Notify(osSignals, syscall.SIGINT, syscall.SIGTERM)
@@ -26,31 +26,39 @@ func main() {
 		os.Exit(11)
 	}
 
-	// This configuration is usually injected by the same admission webhook injecting the sidecar container
-	config := imds.Config{
-		IamRole:           "frostbite-falls_bullwinkle",
-		GcpVaultMountPath: "cloud-iam/gcp/datadog-sandbox",
-		AwsVaultMountPath: "cloud-iam/aws/601427279990",
-		ServerConfig: server.Config{
-			BindAddress: "127.0.0.1:8080",
-		},
-		GcpProjectIds: map[string]string{
-			"datadog-sandbox": "958371799887",
-		},
+	if len(os.Args) != 2 {
+		log.Error("usage: attache <config-file>")
 	}
+
+	filePath := os.Args[1]
+	log.Debug("loading configuration", zap.String("path", filePath))
+
+	config := &imds.Config{}
+	b, err := os.ReadFile(filePath)
+	if err != nil {
+		log.Error("unable to load configuration file", zap.String("path", filePath), zap.Error(err))
+		os.Exit(15)
+	}
+	err = yaml.Unmarshal(b, config)
+	if err != nil {
+		log.Error("unable to parse configuration file", zap.String("path", filePath), zap.Error(err))
+		os.Exit(19)
+	}
+
+	log.Debug("configuration loaded", zap.Any("configuration", config))
 
 	vConfig := vault.DefaultConfig()
 	v, err := vault.NewClient(vConfig)
 
 	server, closeFunc, err := imds.NewServer(context.Background(), &imds.MetadataServerConfig{
-		CloudiamConf:  config,
+		CloudiamConf:  *config,
 		DDVaultClient: v,
 		MetricSink:    &metrics.BlackholeSink{},
 		Log:           log,
 	})
 	if err != nil {
 		fmt.Printf("could not initialize imds server: %v\n", err)
-		os.Exit(12)
+		os.Exit(19)
 	}
 	defer closeFunc()
 
