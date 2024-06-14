@@ -28,6 +28,7 @@ func main() {
 
 	if len(os.Args) != 2 {
 		log.Error("usage: attache <config-file>")
+		os.Exit(12)
 	}
 
 	filePath := os.Args[1]
