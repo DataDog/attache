@@ -1,58 +1,58 @@
-github.com/DataDog/appsec-internal-go,https://github.com/DataDog/appsec-internal-go/blob/v1.5.0/LICENSE,Apache-2.0
-github.com/DataDog/attache,https://github.com/DataDog/attache/blob/HEAD/LICENSE,Apache-2.0
-github.com/DataDog/datadog-agent/pkg/obfuscate,https://github.com/DataDog/datadog-agent/blob/pkg/obfuscate/v0.48.0/pkg/obfuscate/LICENSE,Apache-2.0
-github.com/DataDog/datadog-agent/pkg/remoteconfig/state,https://github.com/DataDog/datadog-agent/blob/pkg/remoteconfig/state/v0.49.0-devel/pkg/remoteconfig/state/LICENSE,Apache-2.0
-github.com/DataDog/datadog-go/v5/statsd,https://github.com/DataDog/datadog-go/blob/v5.5.0/LICENSE.txt,MIT
-github.com/DataDog/go-libddwaf/v2,https://github.com/DataDog/go-libddwaf/blob/v2.4.2/LICENSE,Apache-2.0
-github.com/DataDog/go-tuf,https://github.com/DataDog/go-tuf/blob/v1.0.2-0.5.2/LICENSE,BSD-3-Clause
-github.com/DataDog/sketches-go/ddsketch,https://github.com/DataDog/sketches-go/blob/v1.4.2/LICENSE,Apache-2.0
-github.com/aws/aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/blob/v1.25.2/LICENSE.txt,Apache-2.0
-github.com/aws/aws-sdk-go-v2/feature/ec2/imds,https://github.com/aws/aws-sdk-go-v2/blob/feature/ec2/imds/v1.15.2/feature/ec2/imds/LICENSE.txt,Apache-2.0
-github.com/aws/aws-sdk-go-v2/internal/sync/singleflight,https://github.com/aws/aws-sdk-go-v2/blob/v1.25.2/internal/sync/singleflight/LICENSE,BSD-3-Clause
-github.com/aws/smithy-go,https://github.com/aws/smithy-go/blob/v1.20.1/LICENSE,Apache-2.0
-github.com/aws/smithy-go/internal/sync/singleflight,https://github.com/aws/smithy-go/blob/v1.20.1/internal/sync/singleflight/LICENSE,BSD-3-Clause
-github.com/cenkalti/backoff/v3,https://github.com/cenkalti/backoff/blob/v3.2.2/LICENSE,MIT
-github.com/cespare/xxhash/v2,https://github.com/cespare/xxhash/blob/v2.2.0/LICENSE.txt,MIT
-github.com/dustin/go-humanize,https://github.com/dustin/go-humanize/blob/v1.0.1/LICENSE,MIT
-github.com/ebitengine/purego,https://github.com/ebitengine/purego/blob/v0.6.0-alpha.5/LICENSE,Apache-2.0
-github.com/go-jose/go-jose/v4,https://github.com/go-jose/go-jose/blob/v4.0.1/LICENSE,Apache-2.0
-github.com/go-jose/go-jose/v4/json,https://github.com/go-jose/go-jose/blob/v4.0.1/json/LICENSE,BSD-3-Clause
-github.com/golang/protobuf/proto,https://github.com/golang/protobuf/blob/v1.5.4/LICENSE,BSD-3-Clause
-github.com/google/uuid,https://github.com/google/uuid/blob/v1.6.0/LICENSE,BSD-3-Clause
-github.com/gorilla/mux,https://github.com/gorilla/mux/blob/v1.8.0/LICENSE,BSD-3-Clause
-github.com/hashicorp/errwrap,https://github.com/hashicorp/errwrap/blob/v1.1.0/LICENSE,MPL-2.0
-github.com/hashicorp/go-cleanhttp,https://github.com/hashicorp/go-cleanhttp/blob/v0.5.2/LICENSE,MPL-2.0
-github.com/hashicorp/go-immutable-radix,https://github.com/hashicorp/go-immutable-radix/blob/v1.3.1/LICENSE,MPL-2.0
-github.com/hashicorp/go-metrics,https://github.com/hashicorp/go-metrics/blob/v0.5.3/LICENSE,MIT
-github.com/hashicorp/go-multierror,https://github.com/hashicorp/go-multierror/blob/v1.1.1/LICENSE,MPL-2.0
-github.com/hashicorp/go-retryablehttp,https://github.com/hashicorp/go-retryablehttp/blob/v0.7.6/LICENSE,MPL-2.0
-github.com/hashicorp/go-rootcerts,https://github.com/hashicorp/go-rootcerts/blob/v1.0.2/LICENSE,MPL-2.0
-github.com/hashicorp/go-secure-stdlib/parseutil,https://github.com/hashicorp/go-secure-stdlib/blob/parseutil/v0.1.8/parseutil/LICENSE,MPL-2.0
-github.com/hashicorp/go-secure-stdlib/strutil,https://github.com/hashicorp/go-secure-stdlib/blob/strutil/v0.1.2/strutil/LICENSE,MPL-2.0
-github.com/hashicorp/go-sockaddr,https://github.com/hashicorp/go-sockaddr/blob/v1.0.6/LICENSE,MPL-2.0
-github.com/hashicorp/golang-lru/simplelru,https://github.com/hashicorp/golang-lru/blob/v1.0.2/LICENSE,MPL-2.0
-github.com/hashicorp/hcl,https://github.com/hashicorp/hcl/blob/v1.0.1-vault-5/LICENSE,MPL-2.0
-github.com/hashicorp/vault/api,https://github.com/hashicorp/vault/blob/api/v1.14.0/api/LICENSE,MPL-2.0
-github.com/hashicorp/vault/sdk/helper/consts,https://github.com/hashicorp/vault/blob/sdk/v0.12.0/sdk/LICENSE,MPL-2.0
-github.com/mitchellh/go-homedir,https://github.com/mitchellh/go-homedir/blob/v1.1.0/LICENSE,MIT
-github.com/mitchellh/mapstructure,https://github.com/mitchellh/mapstructure/blob/v1.5.0/LICENSE,MIT
-github.com/outcaste-io/ristretto,https://github.com/outcaste-io/ristretto/blob/v0.2.3/LICENSE,Apache-2.0
-github.com/outcaste-io/ristretto/z,https://github.com/outcaste-io/ristretto/blob/v0.2.3/z/LICENSE,MIT
-github.com/philhofer/fwd,https://github.com/philhofer/fwd/blob/v1.1.2/LICENSE.md,MIT
-github.com/pkg/errors,https://github.com/pkg/errors/blob/v0.9.1/LICENSE,BSD-2-Clause
-github.com/ryanuber/go-glob,https://github.com/ryanuber/go-glob/blob/v1.0.0/LICENSE,MIT
-github.com/secure-systems-lab/go-securesystemslib/cjson,https://github.com/secure-systems-lab/go-securesystemslib/blob/v0.8.0/LICENSE,MIT
-github.com/tinylib/msgp/msgp,https://github.com/tinylib/msgp/blob/v1.1.8/LICENSE,MIT
-go.uber.org/atomic,https://github.com/uber-go/atomic/blob/v1.11.0/LICENSE.txt,MIT
-go.uber.org/multierr,https://github.com/uber-go/multierr/blob/v1.11.0/LICENSE.txt,MIT
-go.uber.org/zap,https://github.com/uber-go/zap/blob/v1.27.0/LICENSE,MIT
-golang.org/x/crypto/pbkdf2,https://cs.opensource.google/go/x/crypto/+/v0.23.0:LICENSE,BSD-3-Clause
-golang.org/x/net,https://cs.opensource.google/go/x/net/+/v0.25.0:LICENSE,BSD-3-Clause
-golang.org/x/sys/unix,https://cs.opensource.google/go/x/sys/+/v0.20.0:LICENSE,BSD-3-Clause
-golang.org/x/text,https://cs.opensource.google/go/x/text/+/v0.15.0:LICENSE,BSD-3-Clause
-golang.org/x/time/rate,https://cs.opensource.google/go/x/time/+/v0.5.0:LICENSE,BSD-3-Clause
-golang.org/x/xerrors,https://cs.opensource.google/go/x/xerrors/+/104605ab:LICENSE,BSD-3-Clause
-google.golang.org/genproto/googleapis/rpc/status,https://github.com/googleapis/go-genproto/blob/fc5f0ca64291/googleapis/rpc/LICENSE,Apache-2.0
-google.golang.org/grpc,https://github.com/grpc/grpc-go/blob/v1.64.0/LICENSE,Apache-2.0
-google.golang.org/protobuf,https://github.com/protocolbuffers/protobuf-go/blob/v1.34.1/LICENSE,BSD-3-Clause
-gopkg.in/DataDog/dd-trace-go.v1,https://github.com/DataDog/dd-trace-go/blob/v1.64.0/LICENSE,Apache-2.0
+github.com/DataDog/appsec-internal-go,https://github.com/DataDog/appsec-internal-go/blob/v1.5.0/LICENSE,Apache-2.0,Datadog, Inc.
+github.com/DataDog/attache,https://github.com/DataDog/attache/blob/HEAD/LICENSE,Apache-2.0,Datadog, Inc.
+github.com/DataDog/datadog-agent/pkg/obfuscate,https://github.com/DataDog/datadog-agent/blob/pkg/obfuscate/v0.48.0/pkg/obfuscate/LICENSE,Apache-2.0,Datadog, Inc.
+github.com/DataDog/datadog-agent/pkg/remoteconfig/state,https://github.com/DataDog/datadog-agent/blob/pkg/remoteconfig/state/v0.49.0-devel/pkg/remoteconfig/state/LICENSE,Apache-2.0,Datadog, Inc.
+github.com/DataDog/datadog-go/v5/statsd,https://github.com/DataDog/datadog-go/blob/v5.5.0/LICENSE.txt,MIT,Datadog, Inc.
+github.com/DataDog/go-libddwaf/v2,https://github.com/DataDog/go-libddwaf/blob/v2.4.2/LICENSE,Apache-2.0,Datadog, Inc.
+github.com/DataDog/go-tuf,https://github.com/DataDog/go-tuf/blob/v1.0.2-0.5.2/LICENSE,BSD-3-Clause,Datadog, Inc.
+github.com/DataDog/sketches-go/ddsketch,https://github.com/DataDog/sketches-go/blob/v1.4.2/LICENSE,Apache-2.0,Datadog, Inc.
+github.com/aws/aws-sdk-go-v2,https://github.com/aws/aws-sdk-go-v2/blob/v1.25.2/LICENSE.txt,Apache-2.0,Amazon.com, Inc. or its affiliates
+github.com/aws/aws-sdk-go-v2/feature/ec2/imds,https://github.com/aws/aws-sdk-go-v2/blob/feature/ec2/imds/v1.15.2/feature/ec2/imds/LICENSE.txt,Apache-2.0,Amazon.com, Inc. or its affiliates
+github.com/aws/aws-sdk-go-v2/internal/sync/singleflight,https://github.com/aws/aws-sdk-go-v2/blob/v1.25.2/internal/sync/singleflight/LICENSE,BSD-3-Clause,Amazon.com, Inc. or its affiliates
+github.com/aws/smithy-go,https://github.com/aws/smithy-go/blob/v1.20.1/LICENSE,Apache-2.0,Amazon.com, Inc. or its affiliates
+github.com/aws/smithy-go/internal/sync/singleflight,https://github.com/aws/smithy-go/blob/v1.20.1/internal/sync/singleflight/LICENSE,BSD-3-Clause,Amazon.com, Inc. or its affiliates
+github.com/cenkalti/backoff/v3,https://github.com/cenkalti/backoff/blob/v3.2.2/LICENSE,MIT,Cenk Altı
+github.com/cespare/xxhash/v2,https://github.com/cespare/xxhash/blob/v2.2.0/LICENSE.txt,MIT,Caleb Spare
+github.com/dustin/go-humanize,https://github.com/dustin/go-humanize/blob/v1.0.1/LICENSE,MIT,Dustin Sallings <dustin@spy.net>
+github.com/ebitengine/purego,https://github.com/ebitengine/purego/blob/v0.6.0-alpha.5/LICENSE,Apache-2.0,Ebitengine
+github.com/go-jose/go-jose/v4,https://github.com/go-jose/go-jose/blob/v4.0.1/LICENSE,Apache-2.0,Square Inc. and The Go Authors
+github.com/go-jose/go-jose/v4/json,https://github.com/go-jose/go-jose/blob/v4.0.1/json/LICENSE,BSD-3-Clause,Square Inc. and The Go Authors
+github.com/golang/protobuf/proto,https://github.com/golang/protobuf/blob/v1.5.4/LICENSE,BSD-3-Clause,The Go Authors
+github.com/google/uuid,https://github.com/google/uuid/blob/v1.6.0/LICENSE,BSD-3-Clause,Google Inc.
+github.com/gorilla/mux,https://github.com/gorilla/mux/blob/v1.8.0/LICENSE,BSD-3-Clause,The Gorilla Authors
+github.com/hashicorp/errwrap,https://github.com/hashicorp/errwrap/blob/v1.1.0/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-cleanhttp,https://github.com/hashicorp/go-cleanhttp/blob/v0.5.2/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-immutable-radix,https://github.com/hashicorp/go-immutable-radix/blob/v1.3.1/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-metrics,https://github.com/hashicorp/go-metrics/blob/v0.5.3/LICENSE,MIT,HashiCorp, Inc.
+github.com/hashicorp/go-multierror,https://github.com/hashicorp/go-multierror/blob/v1.1.1/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-retryablehttp,https://github.com/hashicorp/go-retryablehttp/blob/v0.7.6/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-rootcerts,https://github.com/hashicorp/go-rootcerts/blob/v1.0.2/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-secure-stdlib/parseutil,https://github.com/hashicorp/go-secure-stdlib/blob/parseutil/v0.1.8/parseutil/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-secure-stdlib/strutil,https://github.com/hashicorp/go-secure-stdlib/blob/strutil/v0.1.2/strutil/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/go-sockaddr,https://github.com/hashicorp/go-sockaddr/blob/v1.0.6/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/golang-lru/simplelru,https://github.com/hashicorp/golang-lru/blob/v1.0.2/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/hcl,https://github.com/hashicorp/hcl/blob/v1.0.1-vault-5/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/vault/api,https://github.com/hashicorp/vault/blob/api/v1.14.0/api/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/hashicorp/vault/sdk/helper/consts,https://github.com/hashicorp/vault/blob/sdk/v0.12.0/sdk/LICENSE,MPL-2.0,HashiCorp, Inc.
+github.com/mitchellh/go-homedir,https://github.com/mitchellh/go-homedir/blob/v1.1.0/LICENSE,MIT,Mitchell Hashimoto
+github.com/mitchellh/mapstructure,https://github.com/mitchellh/mapstructure/blob/v1.5.0/LICENSE,MIT,Mitchell Hashimoto
+github.com/outcaste-io/ristretto,https://github.com/outcaste-io/ristretto/blob/v0.2.3/LICENSE,Apache-2.0,Outcaste LLC
+github.com/outcaste-io/ristretto/z,https://github.com/outcaste-io/ristretto/blob/v0.2.3/z/LICENSE,MIT,Outcaste LLC
+github.com/philhofer/fwd,https://github.com/philhofer/fwd/blob/v1.1.2/LICENSE.md,MIT,Phil Hofer
+github.com/pkg/errors,https://github.com/pkg/errors/blob/v0.9.1/LICENSE,BSD-2-Clause,Dave Cheney <dave@cheney.net>
+github.com/ryanuber/go-glob,https://github.com/ryanuber/go-glob/blob/v1.0.0/LICENSE,MIT,Ryan Uber
+github.com/secure-systems-lab/go-securesystemslib/cjson,https://github.com/secure-systems-lab/go-securesystemslib/blob/v0.8.0/LICENSE,MIT,NYU Secure Systems Lab
+github.com/tinylib/msgp/msgp,https://github.com/tinylib/msgp/blob/v1.1.8/LICENSE,MIT,Philip Hofer and The Go Authors
+go.uber.org/atomic,https://github.com/uber-go/atomic/blob/v1.11.0/LICENSE.txt,MIT,Uber Technologies, Inc.
+go.uber.org/multierr,https://github.com/uber-go/multierr/blob/v1.11.0/LICENSE.txt,MIT,Uber Technologies, Inc.
+go.uber.org/zap,https://github.com/uber-go/zap/blob/v1.27.0/LICENSE,MIT,Uber Technologies, Inc.
+golang.org/x/crypto/pbkdf2,https://cs.opensource.google/go/x/crypto/+/v0.23.0:LICENSE,BSD-3-Clause,The Go Authors
+golang.org/x/net,https://cs.opensource.google/go/x/net/+/v0.25.0:LICENSE,BSD-3-Clause,The Go Authors
+golang.org/x/sys/unix,https://cs.opensource.google/go/x/sys/+/v0.20.0:LICENSE,BSD-3-Clause,The Go Authors
+golang.org/x/text,https://cs.opensource.google/go/x/text/+/v0.15.0:LICENSE,BSD-3-Clause,The Go Authors
+golang.org/x/time/rate,https://cs.opensource.google/go/x/time/+/v0.5.0:LICENSE,BSD-3-Clause,The Go Authors
+golang.org/x/xerrors,https://cs.opensource.google/go/x/xerrors/+/104605ab:LICENSE,BSD-3-Clause,The Go Authors
+google.golang.org/genproto/googleapis/rpc/status,https://github.com/googleapis/go-genproto/blob/fc5f0ca64291/googleapis/rpc/LICENSE,Apache-2.0,Google Inc.
+google.golang.org/grpc,https://github.com/grpc/grpc-go/blob/v1.64.0/LICENSE,Apache-2.0,Google Inc.
+google.golang.org/protobuf,https://github.com/protocolbuffers/protobuf-go/blob/v1.34.1/LICENSE,BSD-3-Clause,Google Inc.
+gopkg.in/DataDog/dd-trace-go.v1,https://github.com/DataDog/dd-trace-go/blob/v1.64.0/LICENSE,Apache-2.0,Datadog, Inc.
