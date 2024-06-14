@@ -42,6 +42,6 @@ for dependency in thirdparty_licenses:
 
     if author is None:
         raise ValueError(f'No author found for {package}')
-        
-    print(f'{package},{license_url},{license_type},{author}')
+
+    print(f'{package},{license_url},{license_type},"{author}"')
     
