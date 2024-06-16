@@ -23,6 +23,8 @@ if [[ -z "$V_GCP_SERVICE_ACCOUNT_JSON" ]]; then
   exit 1
 fi
 
+vault audit enable file file_path="./demo/vault-audit.log"
+
 vault secrets enable -path cloud-iam/aws/601427279990 aws
 vault write cloud-iam/aws/601427279990/config/root access_key="$V_AWS_ACCESS_KEY" secret_key="$V_AWS_SECRET_KEY"
 vault write cloud-iam/aws/601427279990/roles/frostbite-falls_bullwinkle credential_type=assumed_role role_arns="arn:aws:iam::601427279990:role/dd.frostbiteFalls_bullwinkle"
