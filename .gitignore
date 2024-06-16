@@ -23,4 +23,5 @@ go.work.sum
 
 /attache
 /demo-runner
+/demo/vault-audit.log
 bin/
