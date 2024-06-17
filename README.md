@@ -1,10 +1,11 @@
 # Attaché
 
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org) 
+
 Attaché provides an emulation layer for cloud provider instance metadata APIs, allowing for seamless multi-cloud IAM using Hashicorp Vault.
 
 <p align="center">
-  <a href="./attaché.png"><img src="./attaché.png" alt="Attaché" width="800" /></a>
+  <a href="./attache.png"><img src="./attache.png" alt="Attaché" width="800" /></a>
 </p>
 
 
