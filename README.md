@@ -117,7 +117,7 @@ We can verify this worked by running `vault read cloud-iam/gcp/gcp-sandbox/imper
 
 Let's create a configuration file for Attaché (see [Configuration reference](#configuration-reference)):
 
-```
+```yaml
 ##
 # Attaché global configuration
 ##
