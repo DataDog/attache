@@ -5,7 +5,7 @@
 Attaché provides an emulation layer for cloud provider instance metadata APIs, allowing for seamless multi-cloud IAM using Hashicorp Vault.
 
 <p align="center">
-  <a href="./attache.png"><img src="./attache.png" alt="Attaché" width="800" /></a>
+  <a href="./attache.jpg"><img src="./attache.jpg" alt="Attaché" width="800" /></a>
 </p>
 
 
