@@ -1,8 +1,10 @@
 # Attaché
 
-[![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org) 
+[![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
 
 Attaché provides an emulation layer for cloud provider instance metadata APIs, allowing for seamless multi-cloud IAM using Hashicorp Vault.
+
+More information can be found in the companion talk, [Freeing Identity from Infrastructure](https://www.youtube.com/watch?v=xifpJbTepCs).
 
 <p align="center">
   <a href="./attache.jpg"><img src="./attache.jpg" alt="Attaché" width="800" /></a>
@@ -105,7 +107,7 @@ gcloud iam service-accounts add-iam-policy-binding application-role@$project.iam
 Then we configure the Vault GCP credentials backend, so it can access our prerequisite
 
 ```bash
-gcloud 
+gcloud
 vault secrets enable -path cloud-iam/gcp/gcp-sandbox gcp
 vault write cloud-iam/gcp/gcp-sandbox/config credentials=@gcp-creds.json
 vault write cloud-iam/gcp/gcp-sandbox/impersonated-account/application-role service_account_email="application-role@gcp-sandbox.iam.gserviceaccount.com" token_scopes="https://www.googleapis.com/auth/cloud-platform" ttl="4h"
@@ -130,7 +132,7 @@ server:
 provider: ""
 region: ""
 zone: ""
-  
+
 # AWS configuration
 aws_vault_mount_path: cloud-iam/aws/012345678901
 iam_role: application-role
@@ -139,7 +141,7 @@ imds_v1_allowed: false
 # GCP configuration
 gcp_vault_mount_path: cloud-iam/gcp/gcp-sandbox
 gcp_project_ids:
-    cloud-iam/gcp/gcp-sandbox: "712781682929"  
+    cloud-iam/gcp/gcp-sandbox: "712781682929"
 
 # Azure configuration (unused here)
 azure_vault_mount_path: ""
@@ -199,13 +201,13 @@ from google.cloud import storage
 
 def list_s3_buckets():
     s3 = boto3.client('s3')
-    
-    response = s3.list_buckets()    
+
+    response = s3.list_buckets()
     print(f"Found {len(response['Buckets'])} AWS S3 buckets!")
 
 def list_gcs_buckets():
     client = storage.Client()
-    
+
     buckets = client.list_buckets()
     print(f"Found {len(list(buckets))} GCS buckets!")
 
@@ -274,7 +276,7 @@ region: ""
 
 # If applicable, current cloud availability zone (e.g., us-east-1a) where attaché is running
 zone: ""
-  
+
 ##
 # AWS configuration
 ##
@@ -297,7 +299,7 @@ gcp_vault_mount_path: cloud-iam/gcp/my-gcp-sandbox
 
 # Mapping of Vault paths to Google Cloud project IDs
 gcp_project_ids:
-    cloud-iam/gcp/datadog-sandbox: "012345678901"  
+    cloud-iam/gcp/datadog-sandbox: "012345678901"
 
 ##
 # Azure configuration
