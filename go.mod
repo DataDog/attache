@@ -1,6 +1,6 @@
 module github.com/DataDog/attache
 
-go 1.22.0
+go 1.25.7
 
 require (
 	cloud.google.com/go/storage v1.42.0
