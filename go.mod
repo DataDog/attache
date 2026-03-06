@@ -2,6 +2,8 @@ module github.com/DataDog/attache
 
 go 1.22.0
 
+toolchain go1.26.0
+
 require (
 	cloud.google.com/go/storage v1.42.0
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.15.2
