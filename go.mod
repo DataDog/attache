@@ -1,6 +1,6 @@
 module github.com/DataDog/attache
 
-go 1.22.0
+go 1.25.0
 
 require (
 	cloud.google.com/go/storage v1.42.0
@@ -20,7 +20,7 @@ require (
 	github.com/stretchr/testify v1.9.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.25.0
-	golang.org/x/time v0.5.0
+	golang.org/x/time v0.15.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.64.0
 	gopkg.in/yaml.v3 v3.0.1
 )
